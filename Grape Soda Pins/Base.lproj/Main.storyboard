@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snack_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="snack_wheel2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb">
                                 <rect key="frame" x="-1" y="151" width="375" height="369"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-fs-LBE" customClass="RotatingWheel">
@@ -28,27 +28,31 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hand.png" translatesAutoresizingMaskIntoConstraints="NO" id="VbT-Cb-YqR">
                                         <rect key="frame" x="103" y="100" width="169" height="169"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="169" id="4dL-wj-J5f"/>
-                                            <constraint firstAttribute="height" constant="169" id="Pxp-9M-kRX"/>
+                                            <constraint firstAttribute="height" constant="169" id="NT3-0Z-U85"/>
+                                            <constraint firstAttribute="width" constant="169" id="YfG-SI-pWC"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="VbT-Cb-YqR" firstAttribute="centerY" secondItem="ZcQ-fs-LBE" secondAttribute="centerY" id="Ep0-x6-vyv"/>
-                                    <constraint firstItem="VbT-Cb-YqR" firstAttribute="centerX" secondItem="ZcQ-fs-LBE" secondAttribute="centerX" id="TVt-gh-H6Y"/>
+                                    <constraint firstItem="VbT-Cb-YqR" firstAttribute="centerY" secondItem="ZcQ-fs-LBE" secondAttribute="centerY" id="483-T5-C5Z"/>
+                                    <constraint firstItem="VbT-Cb-YqR" firstAttribute="centerX" secondItem="ZcQ-fs-LBE" secondAttribute="centerX" id="l2N-Hl-WNf"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="you_me200x.png" translatesAutoresizingMaskIntoConstraints="NO" id="eZs-kj-fPf">
+                                <rect key="frame" x="112" y="539" width="150" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="ZcQ-fs-LBE" secondAttribute="trailing" id="7LV-fo-lbd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZcQ-fs-LBE" secondAttribute="bottom" constant="146" id="Dbw-3a-iib"/>
-                            <constraint firstItem="ZcQ-fs-LBE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Htq-3b-NW0"/>
-                            <constraint firstItem="Yl8-zU-Etb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="aYm-kX-cqy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yl8-zU-Etb" secondAttribute="bottom" constant="147" id="sAu-C7-SYu"/>
-                            <constraint firstItem="Yl8-zU-Etb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-17" id="t5w-a8-YNL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yl8-zU-Etb" secondAttribute="trailing" constant="1" id="tvA-2f-hUN"/>
-                            <constraint firstItem="ZcQ-fs-LBE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="vjC-Rp-Bck"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yl8-zU-Etb" secondAttribute="bottom" constant="147" id="8qE-mc-bgq"/>
+                            <constraint firstItem="Yl8-zU-Etb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="90s-GD-GSE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yl8-zU-Etb" secondAttribute="trailing" constant="1" id="G1L-uC-5XD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZcQ-fs-LBE" secondAttribute="bottom" constant="146" id="LjT-2a-80Z"/>
+                            <constraint firstItem="ZcQ-fs-LBE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fxD-zQ-bcF"/>
+                            <constraint firstItem="Yl8-zU-Etb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-17" id="jnQ-uf-Kfm"/>
+                            <constraint firstItem="ZcQ-fs-LBE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="kYw-ow-ovb"/>
+                            <constraint firstAttribute="trailing" secondItem="ZcQ-fs-LBE" secondAttribute="trailing" id="lPy-Ml-ZQV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -65,6 +69,7 @@
     </scenes>
     <resources>
         <image name="hand.png" width="200" height="200"/>
-        <image name="snack_wheel.png" width="500" height="500"/>
+        <image name="snack_wheel2.png" width="500" height="500"/>
+        <image name="you_me200x.png" width="200" height="150"/>
     </resources>
 </document>
