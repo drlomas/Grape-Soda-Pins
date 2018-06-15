@@ -18,6 +18,8 @@
 		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
 		3749E82520CF0D03003B5015 /* snack_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82320CF0D03003B5015 /* snack_wheel.png */; };
 		3749E82620CF0D03003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82420CF0D03003B5015 /* hand.png */; };
+		3749E82820D3E6D6003B5015 /* you_me200x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82720D3E6D6003B5015 /* you_me200x.png */; };
+		3749E82A20D3E7EB003B5015 /* snack_wheel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82920D3E7EA003B5015 /* snack_wheel2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		3749E81920CDB012003B5015 /* ArrayUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtils.m; sourceTree = "<group>"; };
 		3749E82320CF0D03003B5015 /* snack_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel.png; sourceTree = "<group>"; };
 		3749E82420CF0D03003B5015 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		3749E82720D3E6D6003B5015 /* you_me200x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = you_me200x.png; sourceTree = "<group>"; };
+		3749E82920D3E7EA003B5015 /* snack_wheel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +75,10 @@
 		3749E7D320CD65B8003B5015 /* Grape Soda Pins */ = {
 			isa = PBXGroup;
 			children = (
+				3749E82720D3E6D6003B5015 /* you_me200x.png */,
 				3749E82420CF0D03003B5015 /* hand.png */,
 				3749E82320CF0D03003B5015 /* snack_wheel.png */,
+				3749E82920D3E7EA003B5015 /* snack_wheel2.png */,
 				3749E80F20CDB007003B5015 /* DecelerationBehaviour.h */,
 				3749E81220CDB007003B5015 /* DecelerationBehaviour.m */,
 				3749E81120CDB007003B5015 /* RotatingWheel.h */,
@@ -156,6 +162,8 @@
 				3749E82620CF0D03003B5015 /* hand.png in Resources */,
 				3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */,
 				3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */,
+				3749E82A20D3E7EB003B5015 /* snack_wheel2.png in Resources */,
+				3749E82820D3E6D6003B5015 /* you_me200x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
