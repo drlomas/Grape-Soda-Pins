@@ -10,5 +10,7 @@ import UIKit
 
 class StartController: UIViewController
 {
-    
+    @IBAction func didTapShop(sender: AnyObject) {
+        if let url = NSURL(string: "https://www.grapesoda.co"){UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }
+    }
 }

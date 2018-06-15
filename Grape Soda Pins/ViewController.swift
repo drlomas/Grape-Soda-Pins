@@ -18,7 +18,11 @@ class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWhe
         rotatingView.delegate = self
         rotatingView.shouldDecelerate = true
         deceleratingBehaviour = DecelerationBehaviour.instance(with: self) as? DecelerationBehaviour
-        deceleratingBehaviour?.smoothnessFactor = 0.9
+        deceleratingBehaviour?.smoothnessFactor = 0.9   
+    }
+    
+    @IBAction func didTapShop(sender: AnyObject) {
+        if let url = NSURL(string: "https://www.grapesoda.co"){UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }
     }
     
     override func viewDidAppear(_ animated: Bool) {
