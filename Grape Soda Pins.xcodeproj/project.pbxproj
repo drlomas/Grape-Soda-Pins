@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3749E7D520CD65B8003B5015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E7D420CD65B8003B5015 /* AppDelegate.swift */; };
+		3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E7D620CD65B8003B5015 /* ViewController.swift */; };
+		3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3749E7D820CD65B8003B5015 /* Main.storyboard */; };
+		3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3749E7DB20CD65C8003B5015 /* Assets.xcassets */; };
+		3749E7DF20CD65C8003B5015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3749E7DD20CD65C8003B5015 /* LaunchScreen.storyboard */; };
+		3749E81320CDB007003B5015 /* RotatingWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81020CDB007003B5015 /* RotatingWheel.m */; };
+		3749E81420CDB007003B5015 /* DecelerationBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81220CDB007003B5015 /* DecelerationBehaviour.m */; };
+		3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81520CDB00C003B5015 /* ViewUtils.m */; };
+		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
+		3749E82520CF0D03003B5015 /* snack_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82320CF0D03003B5015 /* snack_wheel.png */; };
+		3749E82620CF0D03003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82420CF0D03003B5015 /* hand.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3749E7D120CD65B8003B5015 /* Grape Soda Pins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grape Soda Pins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3749E7D420CD65B8003B5015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3749E7D620CD65B8003B5015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3749E7D920CD65B8003B5015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3749E7DB20CD65C8003B5015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3749E7DE20CD65C8003B5015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3749E7E020CD65C8003B5015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3749E7E820CD75DD003B5015 /* Grape Soda Pins-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grape Soda Pins-Bridging-Header.h"; sourceTree = "<group>"; };
+		3749E80F20CDB007003B5015 /* DecelerationBehaviour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecelerationBehaviour.h; sourceTree = "<group>"; };
+		3749E81020CDB007003B5015 /* RotatingWheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotatingWheel.m; sourceTree = "<group>"; };
+		3749E81120CDB007003B5015 /* RotatingWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotatingWheel.h; sourceTree = "<group>"; };
+		3749E81220CDB007003B5015 /* DecelerationBehaviour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecelerationBehaviour.m; sourceTree = "<group>"; };
+		3749E81520CDB00C003B5015 /* ViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		3749E81620CDB00C003B5015 /* ViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		3749E81820CDB012003B5015 /* ArrayUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUtils.h; sourceTree = "<group>"; };
+		3749E81920CDB012003B5015 /* ArrayUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtils.m; sourceTree = "<group>"; };
+		3749E82320CF0D03003B5015 /* snack_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel.png; sourceTree = "<group>"; };
+		3749E82420CF0D03003B5015 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3749E7CE20CD65B8003B5015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3749E7C820CD65B8003B5015 = {
+			isa = PBXGroup;
+			children = (
+				3749E7D320CD65B8003B5015 /* Grape Soda Pins */,
+				3749E7D220CD65B8003B5015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3749E7D220CD65B8003B5015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3749E7D120CD65B8003B5015 /* Grape Soda Pins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3749E7D320CD65B8003B5015 /* Grape Soda Pins */ = {
+			isa = PBXGroup;
+			children = (
+				3749E82420CF0D03003B5015 /* hand.png */,
+				3749E82320CF0D03003B5015 /* snack_wheel.png */,
+				3749E80F20CDB007003B5015 /* DecelerationBehaviour.h */,
+				3749E81220CDB007003B5015 /* DecelerationBehaviour.m */,
+				3749E81120CDB007003B5015 /* RotatingWheel.h */,
+				3749E81020CDB007003B5015 /* RotatingWheel.m */,
+				3749E81620CDB00C003B5015 /* ViewUtils.h */,
+				3749E81520CDB00C003B5015 /* ViewUtils.m */,
+				3749E81820CDB012003B5015 /* ArrayUtils.h */,
+				3749E81920CDB012003B5015 /* ArrayUtils.m */,
+				3749E7D420CD65B8003B5015 /* AppDelegate.swift */,
+				3749E7D620CD65B8003B5015 /* ViewController.swift */,
+				3749E7D820CD65B8003B5015 /* Main.storyboard */,
+				3749E7DB20CD65C8003B5015 /* Assets.xcassets */,
+				3749E7DD20CD65C8003B5015 /* LaunchScreen.storyboard */,
+				3749E7E020CD65C8003B5015 /* Info.plist */,
+				3749E7E820CD75DD003B5015 /* Grape Soda Pins-Bridging-Header.h */,
+			);
+			path = "Grape Soda Pins";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3749E7D020CD65B8003B5015 /* Grape Soda Pins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3749E7E320CD65C8003B5015 /* Build configuration list for PBXNativeTarget "Grape Soda Pins" */;
+			buildPhases = (
+				3749E7CD20CD65B8003B5015 /* Sources */,
+				3749E7CE20CD65B8003B5015 /* Frameworks */,
+				3749E7CF20CD65B8003B5015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grape Soda Pins";
+			productName = "Grape Soda Pins";
+			productReference = 3749E7D120CD65B8003B5015 /* Grape Soda Pins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3749E7C920CD65B8003B5015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Snappy Days co";
+				TargetAttributes = {
+					3749E7D020CD65B8003B5015 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 3749E7CC20CD65B8003B5015 /* Build configuration list for PBXProject "Grape Soda Pins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3749E7C820CD65B8003B5015;
+			productRefGroup = 3749E7D220CD65B8003B5015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3749E7D020CD65B8003B5015 /* Grape Soda Pins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3749E7CF20CD65B8003B5015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3749E82520CF0D03003B5015 /* snack_wheel.png in Resources */,
+				3749E7DF20CD65C8003B5015 /* LaunchScreen.storyboard in Resources */,
+				3749E82620CF0D03003B5015 /* hand.png in Resources */,
+				3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */,
+				3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3749E7CD20CD65B8003B5015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */,
+				3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */,
+				3749E81320CDB007003B5015 /* RotatingWheel.m in Sources */,
+				3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */,
+				3749E81420CDB007003B5015 /* DecelerationBehaviour.m in Sources */,
+				3749E7D520CD65B8003B5015 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3749E7D820CD65B8003B5015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3749E7D920CD65B8003B5015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3749E7DD20CD65C8003B5015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3749E7DE20CD65C8003B5015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3749E7E120CD65C8003B5015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3749E7E220CD65C8003B5015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3749E7E420CD65C8003B5015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V634LUKEHE;
+				INFOPLIST_FILE = "Grape Soda Pins/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snappydays.Grape-Soda-Pins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grape Soda Pins/Grape Soda Pins-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3749E7E520CD65C8003B5015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V634LUKEHE;
+				INFOPLIST_FILE = "Grape Soda Pins/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snappydays.Grape-Soda-Pins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grape Soda Pins/Grape Soda Pins-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3749E7CC20CD65B8003B5015 /* Build configuration list for PBXProject "Grape Soda Pins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3749E7E120CD65C8003B5015 /* Debug */,
+				3749E7E220CD65C8003B5015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3749E7E320CD65C8003B5015 /* Build configuration list for PBXNativeTarget "Grape Soda Pins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3749E7E420CD65C8003B5015 /* Debug */,
+				3749E7E520CD65C8003B5015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3749E7C920CD65B8003B5015 /* Project object */;
+}
