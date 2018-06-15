@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LKV-Rt-14e">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,6 +11,40 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Start Controller-->
+        <scene sceneID="UMK-Gd-G0c">
+            <objects>
+                <viewController id="LKV-Rt-14e" customClass="StartController" customModule="Grape_Soda_Pins" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z0i-7f-59k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JX9-Jh-PNh">
+                                <rect key="frame" x="88" y="447" width="197" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93471825119999996" green="0.82680565120000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="25"/>
+                                <state key="normal" title="LET'S SPIN"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="W7Y-4L-O6D"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hand.png" translatesAutoresizingMaskIntoConstraints="NO" id="nW4-kI-0By">
+                                <rect key="frame" x="110" y="260" width="155" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96332591772079468" green="0.90752202272415161" blue="0.99915939569473267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="TUd-sl-Zkj"/>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="JX9-Jh-PNh" id="yBF-J4-TPn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dM0-w5-lYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-722.39999999999998" y="33.733133433283363"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -19,7 +53,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="snack_wheel2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="snack_wheel3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb">
                                 <rect key="frame" x="-1" y="151" width="375" height="369"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-fs-LBE" customClass="RotatingWheel">
@@ -38,12 +72,8 @@
                                     <constraint firstItem="VbT-Cb-YqR" firstAttribute="centerX" secondItem="ZcQ-fs-LBE" secondAttribute="centerX" id="l2N-Hl-WNf"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="you_me200x.png" translatesAutoresizingMaskIntoConstraints="NO" id="eZs-kj-fPf">
-                                <rect key="frame" x="112" y="539" width="150" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.96332591772079468" green="0.90752202272415161" blue="0.99915939569473267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yl8-zU-Etb" secondAttribute="bottom" constant="147" id="8qE-mc-bgq"/>
                             <constraint firstItem="Yl8-zU-Etb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="90s-GD-GSE"/>
@@ -68,8 +98,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hand.png" width="200" height="200"/>
-        <image name="snack_wheel2.png" width="500" height="500"/>
-        <image name="you_me200x.png" width="200" height="150"/>
+        <image name="hand.png" width="500" height="500"/>
+        <image name="snack_wheel3.png" width="500" height="500"/>
     </resources>
 </document>

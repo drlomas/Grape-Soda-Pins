@@ -18,8 +18,10 @@
 		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
 		3749E82520CF0D03003B5015 /* snack_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82320CF0D03003B5015 /* snack_wheel.png */; };
 		3749E82620CF0D03003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82420CF0D03003B5015 /* hand.png */; };
-		3749E82820D3E6D6003B5015 /* you_me200x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82720D3E6D6003B5015 /* you_me200x.png */; };
 		3749E82A20D3E7EB003B5015 /* snack_wheel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82920D3E7EA003B5015 /* snack_wheel2.png */; };
+		3749E82C20D3F224003B5015 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E82B20D3F224003B5015 /* StartController.swift */; };
+		3749E82E20D3F880003B5015 /* snack_wheel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82D20D3F87F003B5015 /* snack_wheel3.png */; };
+		3749E83020D3F8F3003B5015 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E82F20D3F8F2003B5015 /* start.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +43,10 @@
 		3749E81920CDB012003B5015 /* ArrayUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtils.m; sourceTree = "<group>"; };
 		3749E82320CF0D03003B5015 /* snack_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel.png; sourceTree = "<group>"; };
 		3749E82420CF0D03003B5015 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
-		3749E82720D3E6D6003B5015 /* you_me200x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = you_me200x.png; sourceTree = "<group>"; };
 		3749E82920D3E7EA003B5015 /* snack_wheel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel2.png; sourceTree = "<group>"; };
+		3749E82B20D3F224003B5015 /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		3749E82D20D3F87F003B5015 /* snack_wheel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel3.png; sourceTree = "<group>"; };
+		3749E82F20D3F8F2003B5015 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +79,11 @@
 		3749E7D320CD65B8003B5015 /* Grape Soda Pins */ = {
 			isa = PBXGroup;
 			children = (
-				3749E82720D3E6D6003B5015 /* you_me200x.png */,
+				3749E82F20D3F8F2003B5015 /* start.png */,
 				3749E82420CF0D03003B5015 /* hand.png */,
 				3749E82320CF0D03003B5015 /* snack_wheel.png */,
 				3749E82920D3E7EA003B5015 /* snack_wheel2.png */,
+				3749E82D20D3F87F003B5015 /* snack_wheel3.png */,
 				3749E80F20CDB007003B5015 /* DecelerationBehaviour.h */,
 				3749E81220CDB007003B5015 /* DecelerationBehaviour.m */,
 				3749E81120CDB007003B5015 /* RotatingWheel.h */,
@@ -88,6 +93,7 @@
 				3749E81820CDB012003B5015 /* ArrayUtils.h */,
 				3749E81920CDB012003B5015 /* ArrayUtils.m */,
 				3749E7D420CD65B8003B5015 /* AppDelegate.swift */,
+				3749E82B20D3F224003B5015 /* StartController.swift */,
 				3749E7D620CD65B8003B5015 /* ViewController.swift */,
 				3749E7D820CD65B8003B5015 /* Main.storyboard */,
 				3749E7DB20CD65C8003B5015 /* Assets.xcassets */,
@@ -159,11 +165,12 @@
 			files = (
 				3749E82520CF0D03003B5015 /* snack_wheel.png in Resources */,
 				3749E7DF20CD65C8003B5015 /* LaunchScreen.storyboard in Resources */,
+				3749E83020D3F8F3003B5015 /* start.png in Resources */,
 				3749E82620CF0D03003B5015 /* hand.png in Resources */,
 				3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */,
 				3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */,
 				3749E82A20D3E7EB003B5015 /* snack_wheel2.png in Resources */,
-				3749E82820D3E6D6003B5015 /* you_me200x.png in Resources */,
+				3749E82E20D3F880003B5015 /* snack_wheel3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +183,7 @@
 			files = (
 				3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */,
 				3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */,
+				3749E82C20D3F224003B5015 /* StartController.swift in Sources */,
 				3749E81320CDB007003B5015 /* RotatingWheel.m in Sources */,
 				3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */,
 				3749E81420CDB007003B5015 /* DecelerationBehaviour.m in Sources */,
