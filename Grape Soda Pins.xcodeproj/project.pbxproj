@@ -18,10 +18,6 @@
 		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
 		3749E82C20D3F224003B5015 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E82B20D3F224003B5015 /* StartController.swift */; };
 		3749E87920D43128003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87420D43061003B5015 /* hand.png */; };
-		3749E87A20D4312C003B5015 /* icecream_cookie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87320D43061003B5015 /* icecream_cookie.png */; };
-		3749E87B20D4312C003B5015 /* pineapple_whip.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87020D4305F003B5015 /* pineapple_whip.png */; };
-		3749E87C20D4312C003B5015 /* premium_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87120D43060003B5015 /* premium_bar.png */; };
-		3749E87D20D4312C003B5015 /* pretzel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87220D43061003B5015 /* pretzel.png */; };
 		3749E88020D4312C003B5015 /* snack_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87820D43063003B5015 /* snack_wheel.png */; };
 		3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */; };
 /* End PBXBuildFile section */
@@ -73,10 +69,6 @@
 		3749E86020D42EEE003B5015 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		3749E86120D42EEE003B5015 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3749E86220D42EEE003B5015 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		3749E87020D4305F003B5015 /* pineapple_whip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pineapple_whip.png; sourceTree = "<group>"; };
-		3749E87120D43060003B5015 /* premium_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = premium_bar.png; sourceTree = "<group>"; };
-		3749E87220D43061003B5015 /* pretzel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pretzel.png; sourceTree = "<group>"; };
-		3749E87320D43061003B5015 /* icecream_cookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icecream_cookie.png; sourceTree = "<group>"; };
 		3749E87420D43061003B5015 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
 		3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE Waffle Soft PERSONAL USE.otf"; sourceTree = "<group>"; };
 		3749E87820D43063003B5015 /* snack_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel.png; sourceTree = "<group>"; };
@@ -113,10 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				3749E87420D43061003B5015 /* hand.png */,
-				3749E87320D43061003B5015 /* icecream_cookie.png */,
-				3749E87020D4305F003B5015 /* pineapple_whip.png */,
-				3749E87120D43060003B5015 /* premium_bar.png */,
-				3749E87220D43061003B5015 /* pretzel.png */,
 				3749E87820D43063003B5015 /* snack_wheel.png */,
 				3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */,
 				3749E84320D42EEE003B5015 /* logo */,
@@ -251,16 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3749E87B20D4312C003B5015 /* pineapple_whip.png in Resources */,
 				3749E7DF20CD65C8003B5015 /* LaunchScreen.storyboard in Resources */,
-				3749E87A20D4312C003B5015 /* icecream_cookie.png in Resources */,
 				3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */,
 				3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */,
-				3749E87D20D4312C003B5015 /* pretzel.png in Resources */,
 				3749E87920D43128003B5015 /* hand.png in Resources */,
 				3749E88020D4312C003B5015 /* snack_wheel.png in Resources */,
 				3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */,
-				3749E87C20D4312C003B5015 /* premium_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
