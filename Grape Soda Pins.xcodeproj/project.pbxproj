@@ -16,7 +16,6 @@
 		3749E81420CDB007003B5015 /* DecelerationBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81220CDB007003B5015 /* DecelerationBehaviour.m */; };
 		3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81520CDB00C003B5015 /* ViewUtils.m */; };
 		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
-		3749E82C20D3F224003B5015 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E82B20D3F224003B5015 /* StartController.swift */; };
 		3749E87920D43128003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87420D43061003B5015 /* hand.png */; };
 		3749E88020D4312C003B5015 /* snack_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87820D43063003B5015 /* snack_wheel.png */; };
 		3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */; };
@@ -39,7 +38,6 @@
 		3749E81620CDB00C003B5015 /* ViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		3749E81820CDB012003B5015 /* ArrayUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUtils.h; sourceTree = "<group>"; };
 		3749E81920CDB012003B5015 /* ArrayUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtils.m; sourceTree = "<group>"; };
-		3749E82B20D3F224003B5015 /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		3749E84620D42EEE003B5015 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		3749E84720D42EEE003B5015 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
 		3749E84820D42EEE003B5015 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				3749E81820CDB012003B5015 /* ArrayUtils.h */,
 				3749E81920CDB012003B5015 /* ArrayUtils.m */,
 				3749E7D420CD65B8003B5015 /* AppDelegate.swift */,
-				3749E82B20D3F224003B5015 /* StartController.swift */,
 				3749E7D620CD65B8003B5015 /* ViewController.swift */,
 				3749E7D820CD65B8003B5015 /* Main.storyboard */,
 				3749E7DB20CD65C8003B5015 /* Assets.xcassets */,
@@ -257,7 +254,6 @@
 			files = (
 				3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */,
 				3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */,
-				3749E82C20D3F224003B5015 /* StartController.swift in Sources */,
 				3749E81320CDB007003B5015 /* RotatingWheel.m in Sources */,
 				3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */,
 				3749E81420CDB007003B5015 /* DecelerationBehaviour.m in Sources */,

@@ -31,10 +31,14 @@
 
 @property (nonatomic, assign) BOOL shouldDecelerate;    //defaults to YES
 
+@property (nonatomic, assign, readonly) NSInteger nearestIndex;
+
 //angle in radians
 @property (nonatomic, assign) CGFloat angle;
 - (void)setAngle:(CGFloat)angle animated:(BOOL)animated;
 
 @property (nonatomic, weak) id<RotatingWheelDelegate> delegate;
+
+//- (void)setCurrentSegment;
 
 @end
