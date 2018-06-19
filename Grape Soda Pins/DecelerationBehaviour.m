@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 const CGFloat kTimerInterval = 0.05;
+const CGFloat endVelocity = 0.01;
 
 @interface DecelerationBehaviour ()
 
@@ -50,6 +51,7 @@ const CGFloat kTimerInterval = 0.05;
     {
         userInfo[@"completionBlock"] = completionBlock;
     }
+
     [_timer invalidate];
     _timer = [NSTimer scheduledTimerWithTimeInterval:kTimerInterval target:self selector:@selector(step:) userInfo:userInfo repeats:YES];
 }
@@ -70,7 +72,7 @@ const CGFloat kTimerInterval = 0.05;
     distance.x = velocity.x * kTimerInterval;
     distance.y = velocity.y * kTimerInterval;
     
-    if((ABS(velocity.x) <= 0.001 && ABS(velocity.y) <= 0.001))
+    if((ABS(velocity.x) <= endVelocity && ABS(velocity.y) <= endVelocity))
     {
         if (timer.userInfo[@"completionBlock"])
         {

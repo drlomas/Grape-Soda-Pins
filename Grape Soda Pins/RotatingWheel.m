@@ -3,6 +3,7 @@
 //  Deceleration
 //
 //  Created by Rajendra HN on 04/02/13.
+//  Modified by Daniel Lomas on 10/06/2018.
 //
 
 #import "RotatingWheel.h"

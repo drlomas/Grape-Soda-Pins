@@ -12,7 +12,7 @@ class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWhe
     @IBOutlet weak var rotatingView: RotatingWheel!
     @IBOutlet weak var snackLabel: UILabel!
     var deceleratingBehaviour: DecelerationBehaviour?
-    let snacks: [String] = ["Churros", "Premium Bar", "Waffle", "Pineapple Whip", "Preztel", "Caramel Apple", "Cookie Sandwich", "Popcorn"]
+    let snacks: [String] = ["CHURROS", "PREMIUM BAR", "PINEAPPLE WHIP", "COOKIE SANDWICH", "PRETZEL", "CARAMEL APPLE", "WAFFLE", "POPCORN"]
     var segmentSize: CGFloat = 0
     
     override func viewDidLoad() {
@@ -43,14 +43,16 @@ class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWhe
         let angle = rotatingWheel?.angle
         let currentIndex = Int(floor(angle! / segmentSize))
         
-        snackLabel.text = snacks[currentIndex]
+        self.snackLabel.text = snacks[currentIndex]
+        self.snackLabel.layer.removeAllAnimations()
+        self.snackLabel.alpha = 1.0
     }
     
     func rotatingWheelDidEndDraging(_ rotatingWheel: RotatingWheel?) {
     }
     
     func rotatingWheelDidStartRotating(_ rotatingWheel: RotatingWheel?) {
-        snackLabel.text = "???"
+        self.snackLabel.text = ""
     }
     
     func degreeToRadian(degree: CGFloat) -> CGFloat
