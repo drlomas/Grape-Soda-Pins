@@ -26,6 +26,7 @@
 		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
 		3749E87920D43128003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87420D43061003B5015 /* hand.png */; };
 		3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */; };
+		379DE78B20D9BCC00034349E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 379DE78A20D9BCC00034349E /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,9 +82,9 @@
 		3749E85F20D42EEE003B5015 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		3749E86020D42EEE003B5015 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		3749E86120D42EEE003B5015 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3749E86220D42EEE003B5015 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		3749E87420D43061003B5015 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
 		3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE Waffle Soft PERSONAL USE.otf"; sourceTree = "<group>"; };
+		379DE78A20D9BCC00034349E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +158,8 @@
 		3749E84320D42EEE003B5015 /* logo */ = {
 			isa = PBXGroup;
 			children = (
+				379DE78A20D9BCC00034349E /* logo.png */,
 				3749E84420D42EEE003B5015 /* ios */,
-				3749E86220D42EEE003B5015 /* logo.png */,
 			);
 			path = logo;
 			sourceTree = "<group>";
@@ -269,6 +270,7 @@
 				370E19F520D98D10001B47F2 /* IPAD_RETINA.png in Resources */,
 				370E19EC20D982DD001B47F2 /* IPHONE5.png in Resources */,
 				370E19EE20D982DD001B47F2 /* IPHONEX.png in Resources */,
+				379DE78B20D9BCC00034349E /* logo.png in Resources */,
 				3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */,
 				370E19F720D98D48001B47F2 /* IPHONE4.png in Resources */,
 				3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */,
@@ -453,7 +455,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Grape Soda Pins/Grape Soda Pins-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -476,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Grape Soda Pins/Grape Soda Pins-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
