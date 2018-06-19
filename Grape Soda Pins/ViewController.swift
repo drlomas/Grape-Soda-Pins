@@ -10,19 +10,22 @@ import UIKit
 
 class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWheelDelegate {
     @IBOutlet weak var rotatingView: RotatingWheel!
+    @IBOutlet weak var snackLabel: UILabel!
     var deceleratingBehaviour: DecelerationBehaviour?
-    
-    var snacks: [String] = ["Premium Bar", "Waffle", "Pineapple Whip", "Preztel", "Caramel Apple", "Cookie Sandwich", "Popcorn", "Churros"]
+    let snacks: [String] = ["Churros", "Premium Bar", "Waffle", "Pineapple Whip", "Preztel", "Caramel Apple", "Cookie Sandwich", "Popcorn"]
+    var segmentSize: CGFloat = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         rotatingView.circleRadius = rotatingView.height / 2
         rotatingView.delegate = self
         rotatingView.shouldDecelerate = true
-        rotatingView.referenceAngles = [0, degreeToRadian(degree: 45), degreeToRadian(degree: 90), degreeToRadian(degree: 135), degreeToRadian(degree: 180), degreeToRadian(degree: 225), degreeToRadian(degree: 270), degreeToRadian(degree: 315)]
+        rotatingView.referenceAngles = [degreeToRadian(degree: 45), degreeToRadian(degree: 90), degreeToRadian(degree: 135), degreeToRadian(degree: 180), degreeToRadian(degree: 225), degreeToRadian(degree: 270), degreeToRadian(degree: 315)]
         
         deceleratingBehaviour = DecelerationBehaviour.instance(with: self) as? DecelerationBehaviour
-        deceleratingBehaviour?.smoothnessFactor = 0.9   
+        deceleratingBehaviour?.smoothnessFactor = 0.9
+        
+        segmentSize = (2 * CGFloat.pi) / CGFloat(snacks.count)
     }
     
     @IBAction func didTapShop(sender: AnyObject) {
@@ -37,19 +40,26 @@ class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWhe
     }
     
     func rotatingWheelDidEndDeceletation(_ rotatingWheel: RotatingWheel?) {
-        let nearestIndex: NSInteger = (rotatingWheel?.nearestIndex)! - 1
-        print(nearestIndex as Any)
-        print(snacks[nearestIndex] as Any)
+        let angle = rotatingWheel?.angle
+        let currentIndex = Int(floor(angle! / segmentSize))
+        
+        snackLabel.text = snacks[currentIndex]
     }
     
     func rotatingWheelDidEndDraging(_ rotatingWheel: RotatingWheel?) {
     }
     
     func rotatingWheelDidStartRotating(_ rotatingWheel: RotatingWheel?) {
+        snackLabel.text = "???"
     }
     
     func degreeToRadian(degree: CGFloat) -> CGFloat
     {
         return degree * CGFloat(Double.pi) / 180
+    }
+    
+    func radianToDegree(radian: CGFloat) -> CGFloat
+    {
+        return radian / (CGFloat(Double.pi) / 180)
     }
 }

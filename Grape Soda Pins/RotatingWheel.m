@@ -113,9 +113,8 @@ double distanceBetweenPoints(CGPoint point1, CGPoint point2)
 
 - (void)handleTap:(UIPanGestureRecognizer *)tapGestureRecognizer
 {
-//    [_deceleratingBehaviour cancelDeceleration];
-//    [self setCurrentSegment];
-//    [self->_delegate rotatingWheelDidEndDeceletation:self];
+    [_deceleratingBehaviour cancelDeceleration];
+    [self->_delegate rotatingWheelDidEndDeceletation:self];
 }
 
 - (void)handlePan:(UIPanGestureRecognizer *)panGestureRecognizer
@@ -165,18 +164,18 @@ double distanceBetweenPoints(CGPoint point1, CGPoint point2)
             //get the current segment
             if (self->_referenceAngles)
             {
-                NSInteger nextIndex = [self->_referenceAngles indexOfObjectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
-                    if (((NSNumber *)obj).doubleValue > self.angle)
-                    {
-                        *stop = YES;
-                        return YES;
-                    }
-                    return NO;
-                }];
+//                NSInteger nextIndex = [self->_referenceAngles indexOfObjectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+//                    if (((NSNumber *)obj).doubleValue > self.angle)
+//                    {
+//                        *stop = YES;
+//                        return YES;
+//                    }
+//                    return NO;
+//                }];
 
-                if (nextIndex == NSNotFound) return;
-
-                NSInteger previousIndex = (nextIndex == 0) ? self->_referenceAngles.count - 1 : nextIndex - 1;
+//                if (nextIndex == NSNotFound) return;
+                
+//                NSInteger previousIndex = (nextIndex == 0) ? self->_referenceAngles.count - 1 : nextIndex - 1;
 //                CGFloat lengthOfArcForNextIndex = self->_circleRadius * ([self->_referenceAngles[nextIndex] doubleValue] - self.angle);
 //                CGFloat lengthOfArcForPreviousIndex = self->_circleRadius * ([self->_referenceAngles[previousIndex] doubleValue] - self.angle);
 //
@@ -185,7 +184,7 @@ double distanceBetweenPoints(CGPoint point1, CGPoint point2)
 //                    lengthOfArcForPreviousIndex = 2 * M_PI * self->_circleRadius - lengthOfArcForPreviousIndex;
 //                }
                 
-                self->_nearestIndex = previousIndex; //(ABS(lengthOfArcForNextIndex) > ABS(lengthOfArcForPreviousIndex)) ? previousIndex : nextIndex;
+//                self->_nearestIndex = (ABS(lengthOfArcForNextIndex) > ABS(lengthOfArcForPreviousIndex)) ? previousIndex : nextIndex;
                 
 //                [self setAngle:[self->_referenceAngles[nextIndex] doubleValue] animated:YES];
             }
