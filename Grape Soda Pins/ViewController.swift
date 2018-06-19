@@ -44,8 +44,13 @@ class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWhe
         let currentIndex = Int(floor(angle! / segmentSize))
         
         self.snackLabel.text = snacks[currentIndex]
-        self.snackLabel.layer.removeAllAnimations()
-        self.snackLabel.alpha = 1.0
+        self.snackLabel.font = UIFont(name: self.snackLabel.font.fontName, size: 30)
+        UIView.animate(withDuration: 0.5, animations: {() -> Void in
+            self.snackLabel.transform = self.snackLabel.transform.scaledBy(x: 2, y: 2)
+            UIView.animate(withDuration: 0.5, animations: {() -> Void in
+                self.snackLabel.transform = self.snackLabel.transform.scaledBy(x: 0.5, y: 0.5)
+            })
+        })
     }
     
     func rotatingWheelDidEndDraging(_ rotatingWheel: RotatingWheel?) {
@@ -53,6 +58,7 @@ class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWhe
     
     func rotatingWheelDidStartRotating(_ rotatingWheel: RotatingWheel?) {
         self.snackLabel.text = ""
+        self.snackLabel.layer.removeAllAnimations()
     }
     
     func degreeToRadian(degree: CGFloat) -> CGFloat
