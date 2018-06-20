@@ -26,6 +26,7 @@
 		3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749E81920CDB012003B5015 /* ArrayUtils.m */; };
 		3749E87920D43128003B5015 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87420D43061003B5015 /* hand.png */; };
 		3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */; };
+		374A89A520DADA6A00676E3D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374A89A420DADA6A00676E3D /* PageViewController.swift */; };
 		379DE78B20D9BCC00034349E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 379DE78A20D9BCC00034349E /* logo.png */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		3749E86120D42EEE003B5015 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3749E87420D43061003B5015 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
 		3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE Waffle Soft PERSONAL USE.otf"; sourceTree = "<group>"; };
+		374A89A420DADA6A00676E3D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		379DE78A20D9BCC00034349E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 				3749E81820CDB012003B5015 /* ArrayUtils.h */,
 				3749E81920CDB012003B5015 /* ArrayUtils.m */,
 				3749E7D420CD65B8003B5015 /* AppDelegate.swift */,
+				374A89A420DADA6A00676E3D /* PageViewController.swift */,
 				3749E7D620CD65B8003B5015 /* ViewController.swift */,
 				3749E7D820CD65B8003B5015 /* Main.storyboard */,
 				3749E7DB20CD65C8003B5015 /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */,
+				374A89A520DADA6A00676E3D /* PageViewController.swift in Sources */,
 				3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */,
 				3749E81320CDB007003B5015 /* RotatingWheel.m in Sources */,
 				3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */,
