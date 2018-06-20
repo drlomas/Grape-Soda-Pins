@@ -49,7 +49,10 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         pageControl.currentPage = 0
         pageControl.pageIndicatorTintColor = UIColor.white
         pageControl.currentPageIndicatorTintColor = #colorLiteral(red: 0.9333333333, green: 0.8274509804, blue: 1, alpha: 1)
-
+        //pageControl.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: 5).isActive = true
+        //pageControl.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        //pageControl.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+        
         self.view.addSubview(pageControl)
     }
     

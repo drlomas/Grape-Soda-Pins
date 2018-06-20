@@ -11,9 +11,10 @@ import UIKit
 class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWheelDelegate {
     @IBOutlet weak var rotatingView: RotatingWheel!
     @IBOutlet weak var snackLabel: UILabel!
+    
     var deceleratingBehaviour: DecelerationBehaviour?
-    let snacks: [String] = ["CHURROS", "PREMIUM BAR", "PINEAPPLE WHIP", "COOKIE SANDWICH", "PRETZEL", "CARAMEL APPLE", "WAFFLE", "POPCORN"]
     var segmentSize: CGFloat = 0
+    let snacks: [String] = ["CHURROS", "PREMIUM BAR", "PINEAPPLE WHIP", "COOKIE SANDWICH", "PRETZEL", "CARAMEL APPLE", "WAFFLE", "POPCORN"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
