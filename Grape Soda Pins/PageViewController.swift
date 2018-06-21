@@ -15,6 +15,10 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                 self.newViewController(viewController: "savouryView")]
     }()
     
+    lazy var orderedViewColors: [UIColor] = {
+        return [#colorLiteral(red: 0.9333333333, green: 0.8274509804, blue: 1, alpha: 1), #colorLiteral(red: 0.6776396191, green: 0.8445633453, blue: 1, alpha: 1)]
+    }()
+    
     var pageControl = UIPageControl()
     
     override func viewDidLoad() {
@@ -35,6 +39,12 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         
         let pageContentViewController = pageViewController.viewControllers![0]
         self.pageControl.currentPage = orderedViewControllers.index(of: pageContentViewController)!
+        self.pageControl.currentPageIndicatorTintColor = orderedViewColors[self.pageControl.currentPage]
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
+        
+        self.pageControl.currentPageIndicatorTintColor = orderedViewColors[self.pageControl.currentPage]
     }
     
     override func didReceiveMemoryWarning() {
@@ -48,10 +58,8 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         pageControl.numberOfPages = orderedViewControllers.count
         pageControl.currentPage = 0
         pageControl.pageIndicatorTintColor = UIColor.white
-        pageControl.currentPageIndicatorTintColor = #colorLiteral(red: 0.9333333333, green: 0.8274509804, blue: 1, alpha: 1)
-        //pageControl.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: 5).isActive = true
-        //pageControl.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-        //pageControl.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+        pageControl.currentPageIndicatorTintColor = orderedViewColors[pageControl.currentPage]
+        pageControl.isUserInteractionEnabled = false
         
         self.view.addSubview(pageControl)
     }

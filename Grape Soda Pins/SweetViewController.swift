@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, DecelerationBehaviourTarget, RotatingWheelDelegate {
+class SweetViewController: UIViewController, DecelerationBehaviourTarget, RotatingWheelDelegate {
     @IBOutlet weak var rotatingView: RotatingWheel!
     @IBOutlet weak var snackLabel: UILabel!
     

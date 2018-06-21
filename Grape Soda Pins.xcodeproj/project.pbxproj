@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370E19E420D9813C001B47F2 /* snack_wheel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19E320D9813B001B47F2 /* snack_wheel2.png */; };
+		370E19E420D9813C001B47F2 /* sweet_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19E320D9813B001B47F2 /* sweet_wheel.png */; };
 		370E19EC20D982DD001B47F2 /* IPHONE5.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19E820D982DD001B47F2 /* IPHONE5.png */; };
 		370E19ED20D982DD001B47F2 /* IPHONE6.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19E920D982DD001B47F2 /* IPHONE6.png */; };
 		370E19EE20D982DD001B47F2 /* IPHONEX.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19EA20D982DD001B47F2 /* IPHONEX.png */; };
@@ -15,8 +15,10 @@
 		370E19F420D98D10001B47F2 /* IPAD_MINI.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19F220D98D10001B47F2 /* IPAD_MINI.png */; };
 		370E19F520D98D10001B47F2 /* IPAD_RETINA.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19F320D98D10001B47F2 /* IPAD_RETINA.png */; };
 		370E19F720D98D48001B47F2 /* IPHONE4.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E19F620D98D48001B47F2 /* IPHONE4.png */; };
+		3747191420DC45A700F92C6E /* SavoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747191320DC45A700F92C6E /* SavoryViewController.swift */; };
+		3747191820DC486000F92C6E /* savory_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3747191720DC486000F92C6E /* savory_wheel.png */; };
 		3749E7D520CD65B8003B5015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E7D420CD65B8003B5015 /* AppDelegate.swift */; };
-		3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E7D620CD65B8003B5015 /* ViewController.swift */; };
+		3749E7D720CD65B8003B5015 /* SweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749E7D620CD65B8003B5015 /* SweetViewController.swift */; };
 		3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3749E7D820CD65B8003B5015 /* Main.storyboard */; };
 		3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3749E7DB20CD65C8003B5015 /* Assets.xcassets */; };
 		3749E7DF20CD65C8003B5015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3749E7DD20CD65C8003B5015 /* LaunchScreen.storyboard */; };
@@ -31,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		370E19E320D9813B001B47F2 /* snack_wheel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snack_wheel2.png; sourceTree = "<group>"; };
+		370E19E320D9813B001B47F2 /* sweet_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sweet_wheel.png; sourceTree = "<group>"; };
 		370E19E820D982DD001B47F2 /* IPHONE5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPHONE5.png; sourceTree = "<group>"; };
 		370E19E920D982DD001B47F2 /* IPHONE6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPHONE6.png; sourceTree = "<group>"; };
 		370E19EA20D982DD001B47F2 /* IPHONEX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPHONEX.png; sourceTree = "<group>"; };
@@ -39,9 +41,11 @@
 		370E19F220D98D10001B47F2 /* IPAD_MINI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPAD_MINI.png; sourceTree = "<group>"; };
 		370E19F320D98D10001B47F2 /* IPAD_RETINA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPAD_RETINA.png; sourceTree = "<group>"; };
 		370E19F620D98D48001B47F2 /* IPHONE4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPHONE4.png; sourceTree = "<group>"; };
+		3747191320DC45A700F92C6E /* SavoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavoryViewController.swift; sourceTree = "<group>"; };
+		3747191720DC486000F92C6E /* savory_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = savory_wheel.png; sourceTree = "<group>"; };
 		3749E7D120CD65B8003B5015 /* Grape Soda Pins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grape Soda Pins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3749E7D420CD65B8003B5015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3749E7D620CD65B8003B5015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3749E7D620CD65B8003B5015 /* SweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetViewController.swift; sourceTree = "<group>"; };
 		3749E7D920CD65B8003B5015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3749E7DB20CD65C8003B5015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3749E7DE20CD65C8003B5015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -134,7 +138,8 @@
 			children = (
 				370E19E720D982D2001B47F2 /* launchimage */,
 				3749E87420D43061003B5015 /* hand.png */,
-				370E19E320D9813B001B47F2 /* snack_wheel2.png */,
+				3747191720DC486000F92C6E /* savory_wheel.png */,
+				370E19E320D9813B001B47F2 /* sweet_wheel.png */,
 				3749E87720D43062003B5015 /* MADE Waffle Soft PERSONAL USE.otf */,
 				3749E84320D42EEE003B5015 /* logo */,
 				3749E80F20CDB007003B5015 /* DecelerationBehaviour.h */,
@@ -147,7 +152,8 @@
 				3749E81920CDB012003B5015 /* ArrayUtils.m */,
 				3749E7D420CD65B8003B5015 /* AppDelegate.swift */,
 				374A89A420DADA6A00676E3D /* PageViewController.swift */,
-				3749E7D620CD65B8003B5015 /* ViewController.swift */,
+				3747191320DC45A700F92C6E /* SavoryViewController.swift */,
+				3749E7D620CD65B8003B5015 /* SweetViewController.swift */,
 				3749E7D820CD65B8003B5015 /* Main.storyboard */,
 				3749E7DB20CD65C8003B5015 /* Assets.xcassets */,
 				3749E7DD20CD65C8003B5015 /* LaunchScreen.storyboard */,
@@ -273,12 +279,13 @@
 				370E19EE20D982DD001B47F2 /* IPHONEX.png in Resources */,
 				379DE78B20D9BCC00034349E /* logo.png in Resources */,
 				3749E88120D4312C003B5015 /* MADE Waffle Soft PERSONAL USE.otf in Resources */,
+				3747191820DC486000F92C6E /* savory_wheel.png in Resources */,
 				370E19F720D98D48001B47F2 /* IPHONE4.png in Resources */,
 				3749E7DC20CD65C8003B5015 /* Assets.xcassets in Resources */,
 				3749E87920D43128003B5015 /* hand.png in Resources */,
 				370E19EF20D982DD001B47F2 /* IPHONE6PLUS.png in Resources */,
 				370E19ED20D982DD001B47F2 /* IPHONE6.png in Resources */,
-				370E19E420D9813C001B47F2 /* snack_wheel2.png in Resources */,
+				370E19E420D9813C001B47F2 /* sweet_wheel.png in Resources */,
 				370E19F420D98D10001B47F2 /* IPAD_MINI.png in Resources */,
 				3749E7DA20CD65B8003B5015 /* Main.storyboard in Resources */,
 			);
@@ -291,10 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3749E7D720CD65B8003B5015 /* ViewController.swift in Sources */,
+				3749E7D720CD65B8003B5015 /* SweetViewController.swift in Sources */,
 				374A89A520DADA6A00676E3D /* PageViewController.swift in Sources */,
 				3749E81720CDB00C003B5015 /* ViewUtils.m in Sources */,
 				3749E81320CDB007003B5015 /* RotatingWheel.m in Sources */,
+				3747191420DC45A700F92C6E /* SavoryViewController.swift in Sources */,
 				3749E81A20CDB012003B5015 /* ArrayUtils.m in Sources */,
 				3749E81420CDB007003B5015 /* DecelerationBehaviour.m in Sources */,
 				3749E7D520CD65B8003B5015 /* AppDelegate.swift in Sources */,

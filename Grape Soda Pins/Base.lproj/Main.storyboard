@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yeC-0A-xpb">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,27 +23,27 @@
             </objects>
             <point key="canvasLocation" x="-181" y="-624"/>
         </scene>
-        <!--View Controller-->
+        <!--Sweet View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="sweetView" id="BYZ-38-t0r" customClass="ViewController" customModule="Grape_Soda_Pins" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sweetView" id="BYZ-38-t0r" customClass="SweetViewController" customModule="Grape_Soda_Pins" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oLt-PS-kzp">
-                                <rect key="frame" x="0.0" y="20" width="320" height="440"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="528"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPIN!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hj9-gl-KZ6">
-                                        <rect key="frame" x="120.5" y="0.0" width="79" height="70"/>
+                                        <rect key="frame" x="120.5" y="0.0" width="79" height="114"/>
                                         <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enm-rU-cKr">
-                                        <rect key="frame" x="0.0" y="70" width="320" height="300"/>
+                                        <rect key="frame" x="0.5" y="114" width="320" height="300"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="snack_wheel2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sweet_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb" userLabel="sweet_wheel.png">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="OD1-XU-koF"/>
@@ -51,7 +51,7 @@
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-fs-LBE" customClass="RotatingWheel">
-                                                <rect key="frame" x="91" y="80" width="139.99999999999994" height="140"/>
+                                                <rect key="frame" x="91" y="80" width="140" height="140"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hand.png" translatesAutoresizingMaskIntoConstraints="NO" id="VbT-Cb-YqR">
@@ -71,7 +71,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvN-oX-Kss">
-                                        <rect key="frame" x="0.0" y="387" width="320" height="33"/>
+                                        <rect key="frame" x="0.0" y="475" width="320" height="33"/>
                                         <color key="backgroundColor" red="0.96332591769999998" green="0.90752202270000004" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="17"/>
                                         <state key="normal" title="GRAPE SODA CLUB">
@@ -101,7 +101,7 @@
                         <constraints>
                             <constraint firstItem="oLt-PS-kzp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EHH-3N-iKp"/>
                             <constraint firstItem="oLt-PS-kzp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Rt1-oZ-uMT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oLt-PS-kzp" secondAttribute="bottom" constant="20" id="b16-9C-V1d"/>
+                            <constraint firstAttribute="bottom" secondItem="oLt-PS-kzp" secondAttribute="bottom" constant="20" symbolic="YES" id="b16-9C-V1d"/>
                             <constraint firstItem="oLt-PS-kzp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="thz-kY-ayk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -115,26 +115,102 @@
                 <tapGestureRecognizer id="H9X-ee-AK8"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Hle-RG-d5X"/>
             </objects>
-            <point key="canvasLocation" x="-183" y="30"/>
+            <point key="canvasLocation" x="-183.75" y="30"/>
         </scene>
-        <!--View Controller-->
+        <!--Savory View Controller-->
         <scene sceneID="Rck-lq-foF">
             <objects>
-                <viewController storyboardIdentifier="savouryView" id="qEm-1J-iXQ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="savouryView" id="qEm-1J-iXQ" customClass="SavoryViewController" customModule="Grape_Soda_Pins" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gbd-wK-apE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjv-ia-myS">
+                                <rect key="frame" x="0.0" y="20" width="320" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPIN!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owq-Dc-aot">
+                                        <rect key="frame" x="121" y="0.0" width="79" height="114"/>
+                                        <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLm-qp-w6e">
+                                        <rect key="frame" x="0.5" y="114" width="320" height="300"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="savory_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="SLJ-w7-qLS">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="swI-ge-mS1"/>
+                                                    <constraint firstAttribute="width" constant="320" id="zGr-br-GSq"/>
+                                                </constraints>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-tk-irI" customClass="RotatingWheel">
+                                                <rect key="frame" x="91" y="80" width="140" height="140"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hand.png" translatesAutoresizingMaskIntoConstraints="NO" id="qTw-QI-fok">
+                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="SLJ-w7-qLS" firstAttribute="top" secondItem="eLm-qp-w6e" secondAttribute="top" id="78a-fN-sDj"/>
+                                            <constraint firstAttribute="bottom" secondItem="SLJ-w7-qLS" secondAttribute="bottom" id="7FV-A6-al5"/>
+                                            <constraint firstAttribute="width" constant="320" id="Zxl-kI-Tu1"/>
+                                            <constraint firstAttribute="height" constant="300" id="bCW-fO-mXr"/>
+                                            <constraint firstAttribute="trailing" secondItem="SLJ-w7-qLS" secondAttribute="trailing" id="lgB-jn-35h"/>
+                                            <constraint firstItem="SLJ-w7-qLS" firstAttribute="leading" secondItem="eLm-qp-w6e" secondAttribute="leading" id="xAO-b6-HZ1"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-R8-oQy">
+                                        <rect key="frame" x="0.0" y="475" width="320" height="33"/>
+                                        <color key="backgroundColor" red="0.92349210660000003" green="0.97136661710000005" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="17"/>
+                                        <state key="normal" title="GRAPE SODA CLUB">
+                                            <color key="titleColor" red="0.81117767100000004" green="0.9018189311" blue="0.99927681680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapShopWithSender:" destination="qEm-1J-iXQ" eventType="touchUpInside" id="S9I-Wc-rwz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92349210660000003" green="0.97136661710000005" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="GSZ-R8-oQy" secondAttribute="bottom" constant="20" id="9pf-4e-ljh"/>
+                                    <constraint firstItem="eLm-qp-w6e" firstAttribute="centerY" secondItem="hjv-ia-myS" secondAttribute="centerY" id="EmN-tL-eru"/>
+                                    <constraint firstAttribute="trailing" secondItem="GSZ-R8-oQy" secondAttribute="trailing" id="RMO-YH-9m7"/>
+                                    <constraint firstItem="eLm-qp-w6e" firstAttribute="centerX" secondItem="hjv-ia-myS" secondAttribute="centerX" id="Tsy-jx-h7c"/>
+                                    <constraint firstItem="GSZ-R8-oQy" firstAttribute="leading" secondItem="hjv-ia-myS" secondAttribute="leading" id="cM5-tj-2Bk"/>
+                                    <constraint firstItem="eLm-qp-w6e" firstAttribute="top" secondItem="Owq-Dc-aot" secondAttribute="bottom" id="gbf-It-DLq"/>
+                                    <constraint firstItem="Owq-Dc-aot" firstAttribute="top" secondItem="hjv-ia-myS" secondAttribute="top" id="iX8-CA-ugE"/>
+                                    <constraint firstItem="Owq-Dc-aot" firstAttribute="centerX" secondItem="hjv-ia-myS" secondAttribute="centerX" id="jfI-Xg-4l5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81117767100000004" green="0.9018189311" blue="0.99927681680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hjv-ia-myS" secondAttribute="bottom" constant="20" symbolic="YES" id="XZw-qX-x4a"/>
+                            <constraint firstAttribute="trailing" secondItem="hjv-ia-myS" secondAttribute="trailing" id="mf2-Pm-dhu"/>
+                            <constraint firstItem="hjv-ia-myS" firstAttribute="leading" secondItem="Gbd-wK-apE" secondAttribute="leading" id="myc-tx-IQS"/>
+                            <constraint firstItem="hjv-ia-myS" firstAttribute="top" secondItem="ZCY-n9-TY1" secondAttribute="top" id="ndO-0t-Ib4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZCY-n9-TY1"/>
                     </view>
+                    <connections>
+                        <outlet property="rotatingView" destination="5ki-tk-irI" id="ufP-VG-ABs"/>
+                        <outlet property="snackLabel" destination="Owq-Dc-aot" id="Jsb-I8-HLJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1LN-3h-cpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="466" y="29"/>
+            <point key="canvasLocation" x="463.125" y="28.75"/>
         </scene>
     </scenes>
     <resources>
         <image name="hand.png" width="500" height="500"/>
-        <image name="snack_wheel2.png" width="500" height="500"/>
+        <image name="savory_wheel.png" width="500" height="500"/>
+        <image name="sweet_wheel.png" width="500" height="500"/>
     </resources>
 </document>
