@@ -3,7 +3,7 @@
 //  Grape Soda Pins
 //
 //  Created by Daniel Lomas on 10/06/2018.
-//  Copyright © 2018 Snappy Days co. All rights reserved.
+//  Copyright © 2018 Grape Soda Club. All rights reserved.
 //
 
 import UIKit
@@ -11,6 +11,7 @@ import UIKit
 class SweetViewController: UIViewController, DecelerationBehaviourTarget, RotatingWheelDelegate {
     @IBOutlet weak var rotatingView: RotatingWheel!
     @IBOutlet weak var snackLabel: UILabel!
+    @IBOutlet weak var staticView: UIView!
     
     var deceleratingBehaviour: DecelerationBehaviour?
     var segmentSize: CGFloat = 0
@@ -27,10 +28,17 @@ class SweetViewController: UIViewController, DecelerationBehaviourTarget, Rotati
         deceleratingBehaviour?.smoothnessFactor = 0.9
         
         segmentSize = (2 * CGFloat.pi) / CGFloat(snacks.count)
+        
+        let pan = UIPanGestureRecognizer(target: self, action: #selector(self.handlePan(sender:)))
+        
+        staticView.addGestureRecognizer(pan)
     }
     
     @IBAction func didTapShop(sender: AnyObject) {
         if let url = NSURL(string: "https://www.grapesoda.co"){UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }
+    }
+    
+    @objc func handlePan(sender: UIPanGestureRecognizer? = nil) {
     }
     
     override func viewDidAppear(_ animated: Bool) {

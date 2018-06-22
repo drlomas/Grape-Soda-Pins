@@ -109,6 +109,7 @@
                     <connections>
                         <outlet property="rotatingView" destination="ZcQ-fs-LBE" id="u3g-LF-1Ki"/>
                         <outlet property="snackLabel" destination="Hj9-gl-KZ6" id="Kd1-tc-ZXo"/>
+                        <outlet property="staticView" destination="enm-rU-cKr" id="q4y-3Y-WPQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -166,7 +167,7 @@
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-R8-oQy">
                                         <rect key="frame" x="0.0" y="475" width="320" height="33"/>
-                                        <color key="backgroundColor" red="0.92349210660000003" green="0.97136661710000005" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.96081427100000005" green="0.97321962719999999" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="17"/>
                                         <state key="normal" title="GRAPE SODA CLUB">
                                             <color key="titleColor" red="0.81117767100000004" green="0.9018189311" blue="0.99927681680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,7 +177,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92349210660000003" green="0.97136661710000005" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.96081427103822481" green="0.97321962721643474" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="GSZ-R8-oQy" secondAttribute="bottom" constant="20" id="9pf-4e-ljh"/>
                                     <constraint firstItem="eLm-qp-w6e" firstAttribute="centerY" secondItem="hjv-ia-myS" secondAttribute="centerY" id="EmN-tL-eru"/>
@@ -201,6 +202,7 @@
                     <connections>
                         <outlet property="rotatingView" destination="5ki-tk-irI" id="ufP-VG-ABs"/>
                         <outlet property="snackLabel" destination="Owq-Dc-aot" id="Jsb-I8-HLJ"/>
+                        <outlet property="staticView" destination="eLm-qp-w6e" id="cSu-7e-c2O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1LN-3h-cpL" userLabel="First Responder" sceneMemberID="firstResponder"/>

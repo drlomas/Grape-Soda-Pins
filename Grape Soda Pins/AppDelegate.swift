@@ -3,7 +3,7 @@
 //  Grape Soda Pins
 //
 //  Created by Daniel Lomas on 10/06/2018.
-//  Copyright © 2018 Snappy Days co. All rights reserved.
+//  Copyright © 2018 Grape Soda Club. All rights reserved.
 //
 
 import UIKit
