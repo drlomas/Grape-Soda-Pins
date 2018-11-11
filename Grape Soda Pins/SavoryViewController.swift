@@ -15,7 +15,7 @@ class SavoryViewController: UIViewController, DecelerationBehaviourTarget, Rotat
     
     var deceleratingBehaviour: DecelerationBehaviour?
     var segmentSize: CGFloat = 0
-    let snacks: [String] = ["HOT DOG", "WAFFLE", "TURKEY LEG", "PIZZA", "CORN DOG", "PICKLE", "PRETZEL", "CORN ON THE COB"]
+    let snacks: [String] = ["HOT DOG", "PRETZEL", "TURKEY LEG", "PIZZA", "CORN DOG", "PICKLE", "WAFFLE", "CORN ON THE COB"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

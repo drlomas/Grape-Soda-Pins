@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yeC-0A-xpb">
-    <device id="retina4_0" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yeC-0A-xpb">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,22 +28,22 @@
             <objects>
                 <viewController storyboardIdentifier="sweetView" id="BYZ-38-t0r" customClass="SweetViewController" customModule="Grape_Soda_Pins" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oLt-PS-kzp">
-                                <rect key="frame" x="0.0" y="20" width="320" height="528"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPIN!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hj9-gl-KZ6">
-                                        <rect key="frame" x="120.5" y="0.0" width="79" height="114"/>
+                                        <rect key="frame" x="167.66666666666666" y="0.0" width="78.666666666666657" height="266"/>
                                         <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enm-rU-cKr">
-                                        <rect key="frame" x="0.5" y="114" width="320" height="300"/>
+                                        <rect key="frame" x="47" y="266" width="320" height="300"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sweet_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb" userLabel="sweet_wheel.png">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="new_sweet_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yl8-zU-Etb" userLabel="sweet_wheel.png">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="OD1-XU-koF"/>
@@ -71,23 +71,23 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvN-oX-Kss">
-                                        <rect key="frame" x="0.0" y="475" width="320" height="33"/>
-                                        <color key="backgroundColor" red="0.96332591769999998" green="0.90752202270000004" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="800" width="414" height="30"/>
+                                        <color key="backgroundColor" red="0.97976249459999998" green="0.88558536769999996" blue="0.92157167200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="14"/>
                                         <state key="normal" title="GRAPE SODA CLUB">
-                                            <color key="titleColor" red="0.93471825119999996" green="0.82680565120000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.97157186269999996" green="0.82645195719999998" blue="0.87843531370000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
                                             <action selector="didTapShopWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="boE-vX-bM6"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.96332591772079468" green="0.90752202272415161" blue="0.99915939569473267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.97976249459999998" green="0.88558536769999996" blue="0.92157167200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="Hj9-gl-KZ6" firstAttribute="top" secondItem="oLt-PS-kzp" secondAttribute="top" id="1wc-Gi-VzI"/>
                                     <constraint firstItem="enm-rU-cKr" firstAttribute="top" secondItem="Hj9-gl-KZ6" secondAttribute="bottom" id="3g7-2m-h7Z"/>
-                                    <constraint firstAttribute="bottom" secondItem="JvN-oX-Kss" secondAttribute="bottom" constant="20" id="7XB-yp-TLM"/>
-                                    <constraint firstItem="enm-rU-cKr" firstAttribute="centerY" secondItem="oLt-PS-kzp" secondAttribute="centerY" id="Du1-Ph-T1z"/>
+                                    <constraint firstAttribute="bottom" secondItem="JvN-oX-Kss" secondAttribute="bottom" constant="66" id="7XB-yp-TLM"/>
+                                    <constraint firstItem="enm-rU-cKr" firstAttribute="centerY" secondItem="oLt-PS-kzp" secondAttribute="centerY" constant="-32" id="Du1-Ph-T1z"/>
                                     <constraint firstItem="enm-rU-cKr" firstAttribute="centerX" secondItem="oLt-PS-kzp" secondAttribute="centerX" id="I0c-QY-iLa"/>
                                     <constraint firstItem="Hj9-gl-KZ6" firstAttribute="centerX" secondItem="oLt-PS-kzp" secondAttribute="centerX" id="NaU-Mn-Wtk"/>
                                     <constraint firstItem="JvN-oX-Kss" firstAttribute="leading" secondItem="oLt-PS-kzp" secondAttribute="leading" id="m2R-Zu-psP"/>
@@ -97,11 +97,11 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.93333333333333335" green="0.82745098039215681" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97157186269999996" green="0.82645195719999998" blue="0.87843531370000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="oLt-PS-kzp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EHH-3N-iKp"/>
-                            <constraint firstItem="oLt-PS-kzp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Rt1-oZ-uMT"/>
-                            <constraint firstAttribute="bottom" secondItem="oLt-PS-kzp" secondAttribute="bottom" constant="20" symbolic="YES" id="b16-9C-V1d"/>
+                            <constraint firstItem="oLt-PS-kzp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="Rt1-oZ-uMT"/>
+                            <constraint firstAttribute="bottom" secondItem="oLt-PS-kzp" secondAttribute="bottom" id="b16-9C-V1d"/>
                             <constraint firstItem="oLt-PS-kzp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="thz-kY-ayk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -116,29 +116,29 @@
                 <tapGestureRecognizer id="H9X-ee-AK8"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Hle-RG-d5X"/>
             </objects>
-            <point key="canvasLocation" x="-183.75" y="30"/>
+            <point key="canvasLocation" x="-184.05797101449278" y="29.464285714285712"/>
         </scene>
         <!--Savory View Controller-->
         <scene sceneID="Rck-lq-foF">
             <objects>
                 <viewController storyboardIdentifier="savouryView" id="qEm-1J-iXQ" customClass="SavoryViewController" customModule="Grape_Soda_Pins" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gbd-wK-apE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjv-ia-myS">
-                                <rect key="frame" x="0.0" y="20" width="320" height="528"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPIN!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owq-Dc-aot">
-                                        <rect key="frame" x="121" y="0.0" width="79" height="114"/>
+                                        <rect key="frame" x="167.66666666666666" y="0.0" width="78.666666666666657" height="266"/>
                                         <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLm-qp-w6e">
-                                        <rect key="frame" x="0.5" y="114" width="320" height="300"/>
+                                        <rect key="frame" x="47" y="266" width="320" height="300"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="savory_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="SLJ-w7-qLS">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="new_savoury_wheel.png" translatesAutoresizingMaskIntoConstraints="NO" id="SLJ-w7-qLS">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="swI-ge-mS1"/>
@@ -166,21 +166,21 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-R8-oQy">
-                                        <rect key="frame" x="0.0" y="475" width="320" height="33"/>
-                                        <color key="backgroundColor" red="0.96081427100000005" green="0.97321962719999999" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="803" width="414" height="30"/>
+                                        <color key="backgroundColor" red="0.97976249459999998" green="0.88558536769999996" blue="0.92157167200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="MADEWaffleSoft" family="MADE Waffle Soft" pointSize="14"/>
                                         <state key="normal" title="GRAPE SODA CLUB">
-                                            <color key="titleColor" red="0.81117767100000004" green="0.9018189311" blue="0.99927681680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.9714969993" green="0.81861364839999995" blue="0.87059205770000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
                                             <action selector="didTapShopWithSender:" destination="qEm-1J-iXQ" eventType="touchUpInside" id="S9I-Wc-rwz"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.96081427103822481" green="0.97321962721643474" blue="0.99915939570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.97976249459999998" green="0.88558536769999996" blue="0.92157167200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="GSZ-R8-oQy" secondAttribute="bottom" constant="20" id="9pf-4e-ljh"/>
-                                    <constraint firstItem="eLm-qp-w6e" firstAttribute="centerY" secondItem="hjv-ia-myS" secondAttribute="centerY" id="EmN-tL-eru"/>
+                                    <constraint firstAttribute="bottom" secondItem="GSZ-R8-oQy" secondAttribute="bottom" constant="63" id="9pf-4e-ljh"/>
+                                    <constraint firstItem="eLm-qp-w6e" firstAttribute="centerY" secondItem="hjv-ia-myS" secondAttribute="centerY" constant="-32" id="EmN-tL-eru"/>
                                     <constraint firstAttribute="trailing" secondItem="GSZ-R8-oQy" secondAttribute="trailing" id="RMO-YH-9m7"/>
                                     <constraint firstItem="eLm-qp-w6e" firstAttribute="centerX" secondItem="hjv-ia-myS" secondAttribute="centerX" id="Tsy-jx-h7c"/>
                                     <constraint firstItem="GSZ-R8-oQy" firstAttribute="leading" secondItem="hjv-ia-myS" secondAttribute="leading" id="cM5-tj-2Bk"/>
@@ -192,10 +192,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.81117767100000004" green="0.9018189311" blue="0.99927681680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="hjv-ia-myS" secondAttribute="bottom" constant="20" symbolic="YES" id="XZw-qX-x4a"/>
+                            <constraint firstAttribute="bottom" secondItem="hjv-ia-myS" secondAttribute="bottom" id="XZw-qX-x4a"/>
                             <constraint firstAttribute="trailing" secondItem="hjv-ia-myS" secondAttribute="trailing" id="mf2-Pm-dhu"/>
                             <constraint firstItem="hjv-ia-myS" firstAttribute="leading" secondItem="Gbd-wK-apE" secondAttribute="leading" id="myc-tx-IQS"/>
-                            <constraint firstItem="hjv-ia-myS" firstAttribute="top" secondItem="ZCY-n9-TY1" secondAttribute="top" id="ndO-0t-Ib4"/>
+                            <constraint firstItem="hjv-ia-myS" firstAttribute="top" secondItem="ZCY-n9-TY1" secondAttribute="top" constant="-44" id="ndO-0t-Ib4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZCY-n9-TY1"/>
                     </view>
@@ -207,12 +207,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1LN-3h-cpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="463.125" y="28.75"/>
+            <point key="canvasLocation" x="462.31884057971018" y="28.125"/>
         </scene>
     </scenes>
     <resources>
         <image name="hand.png" width="500" height="500"/>
-        <image name="savory_wheel.png" width="500" height="500"/>
-        <image name="sweet_wheel.png" width="500" height="500"/>
+        <image name="new_savoury_wheel.png" width="500" height="500"/>
+        <image name="new_sweet_wheel.png" width="500" height="500"/>
     </resources>
 </document>

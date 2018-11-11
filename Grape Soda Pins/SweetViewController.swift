@@ -15,7 +15,7 @@ class SweetViewController: UIViewController, DecelerationBehaviourTarget, Rotati
     
     var deceleratingBehaviour: DecelerationBehaviour?
     var segmentSize: CGFloat = 0
-    let snacks: [String] = ["CHURROS", "PREMIUM BAR", "PINEAPPLE WHIP", "COOKIE SANDWICH", "PRETZEL", "CARAMEL APPLE", "WAFFLE", "POPCORN"]
+    let snacks: [String] = ["CHURROS", "PREMIUM BAR", "PINEAPPLE WHIP", "PRETZEL", "COOKIE SANDWICH", "WAFFLE", "COTTON CANDY", "POPCORN"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
