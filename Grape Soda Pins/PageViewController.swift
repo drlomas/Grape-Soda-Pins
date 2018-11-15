@@ -16,7 +16,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }()
     
     lazy var orderedViewColors: [UIColor] = {
-        return [#colorLiteral(red: 0.9333333333, green: 0.8274509804, blue: 1, alpha: 1), #colorLiteral(red: 0.6776396191, green: 0.8445633453, blue: 1, alpha: 1)]
+        return [#colorLiteral(red: 0.9981182218, green: 0.5985101461, blue: 0.7279575467, alpha: 1), #colorLiteral(red: 0.6776396191, green: 0.8445633453, blue: 1, alpha: 1)]
     }()
     
     var pageControl = UIPageControl()
